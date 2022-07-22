@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Home</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Work+Sans&display=swap" rel="stylesheet">
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+
+    <!-- Very cool content warning pop-up -->
+    <div id="popup">
+      <center>
+        <h3>Content warning:</h3>
+        <p>Mentions of gun violence and suicide.</p>
+        <button id="closeBtn">Continue</button>
+      </center>
+    </div>
+
+    <div id="menu">
+        <center>
+            <nav>
+                <ul>
+                  <li><a href="index.html" class="navLink">Home</a></li>
+                  <li><a href="take-action.html" class="navLink">Take Action</a></li>
+                </ul>
+            </nav>
+        </center>
+    </div>
+    
+    <header>
+      <!-- Background image from New York Times: https://www.nytimes.com/2022/06/11/us/gun-violence-protests.html -->
+      <center><h1>End gun violence.</h1></center>
+    </header>
+
+    <!-- General overview -->
+    <div id="div1">
+      <div id="desc">
+        <h3>Almost 316 people are shot by guns per day in the US.</h3>
+        <p>Stricter laws regarding gun usage and ownership are needed as soon as possible to prevent further deaths, especially as there has been a surge in gun ownership during the pandemic. This is exposing millions of people, including children, to possible gun violence. </p>
+      </div>
+      <!-- Image from Bloomberg News: https://www.bloomberg.com/news/articles/2022-05-25/-red-flag-law-seen-as-possible-starting-point-for-gun-talks -->
+      <img src="assets/gun.jpg" alt="a man holding a gun" style="width:400px;height:auto;">
+    </div>
+    
+    <main>
+      <!-- Causes -->
+      <div class="driveCause">
+        <h3 class="subtitle">Driving Causes</h3>
+        <div id="causes">
+          <div class="cause">
+            <h4>Mental Illness</h4>
+            <p>A majority of deaths involving guns (54%) come from suicide. As a community, we need to raise awareness about mental health and eliminate the stigma surrounding mental illnesses.</p>
+          </div>
+
+          <div class="cause">
+            <h4>No Minimum Age</h4>
+            <p>The minimum age to own a handgun is 18, while the minimum drinking age is 21, due to the argument that the human brain is not fully developed. Furthermore, there is no minimum age to own other types of guns in 30 states. If alcohol is illegal until 21, it makes no sense that people should be able to use guns before then.</p>
+          </div>
+        
+          <div class="cause">
+            <h4>Ease of Access</h4>
+            <p>Loopholes (such as the Charleston loophole) in laws controlling gun sales allow people to purchase guns without background checks and minimal training requirements. While the minimum age to purchase a gun from a licensed seller is 21, one can be only 18 to purchase from a private seller.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <!-- Solutions -->
+      <div id="solutions">
+        <h3 class="subtitle">Possible Solutions</h3>
+        <div class="content">
+          <ul>
+            <li>Increase requirements to purchase a gun, such as requiring background checks and training to be completed</li>
+            <li>Increase the age requirement to own a gun</li>
+            <li>Require proper justification for carrying guns in public</li>
+            <li>Require gun dealers to be licensed</li>
+          </ul>
+          <!-- Image from NDTV: https://www.ndtv.com/world-news/despite-limited-scope-us-senate-gun-control-measures-gain-support-3064685 -->
+          <img src="assets/enough.webp" alt="A woman holding a sign that reads: 'Enough is enough'" style="width:300px;height:auto;">
+        </div>
+      </div>
+
+      <!-- Statistic generator -->
+      <div id="statistics">
+      <h3 class="subtitle">Statistics</h3>
+      <div>
+        <center><h3 id="stat"></h3></center>
+        <center><button id="statBtn">Click for a statistic</button></center>
+      </div>
+      </div>
+    </main>
+  </body>
+</html>
